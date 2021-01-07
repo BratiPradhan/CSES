@@ -4,7 +4,10 @@ using namespace std;
 
 int main()
 {
-    long n;
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    long long n;
     cin >> n;
     while (true)
     {
@@ -27,4 +30,5 @@ int main()
     }
 
     cout << "\n";
+
 }
